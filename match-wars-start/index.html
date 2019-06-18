@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Match Wars</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div class="title-screen">
+        <div class="title-box">
+            <h1>Match<br>Wars</h1>
+            <button id="btn-start" class="btn btn-start">
+                <span class="btn-text">Start Game</span>
+            </button>
+        </div><!-- title box-->
+    </div><!-- title screen -->
+    <div class="game-screen">
+        <div class="title-bar">
+            <h2>Match Wars</h2>
+            <div class="game-stats">
+                <div class="turns">
+                    <span>Turns:</span>
+                    <span id="turn-output" class="turn-output">00</span>
+                </div><!-- turns -->
+                <div class="matches">
+                    <span>Matches:</span>
+                    <span id="match-output" class="match-output">00</span>
+                </div><!-- matches -->
+            </div><!-- game stats -->
+        </div><!-- title bar -->
+        <div class="life-meter">
+            <span>Life: </span>
+            <div class="bars">
+                <div class="bar bar-01" id="bar-01"></div>
+                <div class="bar bar-02" id="bar-02"></div>
+                <div class="bar bar-03" id="bar-03"></div>
+                <div class="bar bar-04" id="bar-04"></div>
+                <div class="bar bar-05" id="bar-05"></div>
+                <div class="bar bar-06" id="bar-06"></div>
+                <div class="bar bar-07" id="bar-07"></div>
+                <div class="bar bar-08" id="bar-08"></div>
+                <div class="bar bar-09" id="bar-09"></div>
+                <div class="bar bar-10" id="bar-10"></div>
+                <div class="bar bar-11" id="bar-11"></div>
+                <div class="bar bar-12" id="bar-12"></div>
+                <div class="bar bar-13" id="bar-13"></div>
+                <div class="bar bar-14" id="bar-14"></div>
+                <div class="bar bar-15" id="bar-15"></div>
+                <div class="bar bar-16" id="bar-16"></div>
+                <div class="bar bar-17" id="bar-17"></div>
+                <div class="bar bar-18" id="bar-18"></div>
+                <div class="bar bar-19" id="bar-19"></div>
+                <div class="bar bar-20" id="bar-20"></div>
+                <div class="bar bar-21" id="bar-21"></div>
+                <div class="bar bar-22" id="bar-22"></div>
+                <div class="bar bar-23" id="bar-23"></div>
+                <div class="bar bar-24" id="bar-24"></div>
+                <div class="bar bar-25" id="bar-25"></div>
+                <div class="bar bar-26" id="bar-26"></div>
+                <div class="bar bar-27" id="bar-27"></div>
+                <div class="bar bar-28" id="bar-28"></div>
+                <div class="bar bar-29" id="bar-29"></div>
+                <div class="bar bar-30" id="bar-30"></div>
+            </div><!-- bars -->
+        </div><!-- life meter -->
+
+        <div class="game-board">
+            <div class="card card-01">
+                <div class="door">
+                    <div class="door-left">
+                        <img src="images/door-left.jpg" alt="Door left">
+                    </div><!-- door left -->
+                    <div class="door-right">
+                        <img src="images/door-right.jpg" alt="Door right">
+                    </div><!-- door right -->
+                </div><!-- door -->
+                <div class="shadow"></div><!-- shadow -->
+                <div class="card-image">
+                    <img src="images/c-3po.jpg" alt="C-3PO">
+                </div><!-- card image -->
+            </div><!-- card -->
+
+            <div class="card card-01">
+                <div class="door">
+                    <div class="door-left">
+                        <img src="images/door-left.jpg" alt="Door left">
+                    </div><!-- door left -->
+                    <div class="door-right">
+                        <img src="images/door-right.jpg" alt="Door right">
+                    </div><!-- door right -->
+                </div><!-- door -->
+                <div class="shadow"></div><!-- shadow -->
+                <div class="card-image">
+                    <img src="images/c-3po.jpg" alt="C-3PO">
+                </div><!-- card image -->
+            </div><!-- card -->
+
+            <div class="card card-01">
+                <div class="door">
+                    <div class="door-left">
+                        <img src="images/door-left.jpg" alt="Door left">
+                    </div><!-- door left -->
+                    <div class="door-right">
+                        <img src="images/door-right.jpg" alt="Door right">
+                    </div><!-- door right -->
+                </div><!-- door -->
+                <div class="shadow"></div><!-- shadow -->
+                <div class="card-image">
+                    <img src="images/c-3po.jpg" alt="C-3PO">
+                </div><!-- card image -->
+            </div><!-- card -->
+
+            <div class="card card-01">
+                <div class="door">
+                    <div class="door-left">
+                        <img src="images/door-left.jpg" alt="Door left">
+                    </div><!-- door left -->
+                    <div class="door-right">
+                        <img src="images/door-right.jpg" alt="Door right">
+                    </div><!-- door right -->
+                </div><!-- door -->
+                <div class="shadow"></div><!-- shadow -->
+                <div class="card-image">
+                    <img src="images/c-3po.jpg" alt="C-3PO">
+                </div><!-- card image -->
+            </div><!-- card -->
+
+            <div class="card card-01">
+                <div class="door">
+                    <div class="door-left">
+                        <img src="images/door-left.jpg" alt="Door left">
+                    </div><!-- door left -->
+                    <div class="door-right">
+                        <img src="images/door-right.jpg" alt="Door right">
+                    </div><!-- door right -->
+                </div><!-- door -->
+                <div class="shadow"></div><!-- shadow -->
+                <div class="card-image">
+                    <img src="images/c-3po.jpg" alt="C-3PO">
+                </div><!-- card image -->
+            </div><!-- card -->
+
+            <div class="card card-01">
+                <div class="door">
+                    <div class="door-left">
+                        <img src="images/door-left.jpg" alt="Door left">
+                    </div><!-- door left -->
+                    <div class="door-right">
+                        <img src="images/door-right.jpg" alt="Door right">
+                    </div><!-- door right -->
+                </div><!-- door -->
+                <div class="shadow"></div><!-- shadow -->
+                <div class="card-image">
+                    <img src="images/c-3po.jpg" alt="C-3PO">
+                </div><!-- card image -->
+            </div><!-- card -->
+
+            <div class="card card-01">
+                <div class="door">
+                    <div class="door-left">
+                        <img src="images/door-left.jpg" alt="Door left">
+                    </div><!-- door left -->
+                    <div class="door-right">
+                        <img src="images/door-right.jpg" alt="Door right">
+                    </div><!-- door right -->
+                </div><!-- door -->
+                <div class="shadow"></div><!-- shadow -->
+                <div class="card-image">
+                    <img src="images/c-3po.jpg" alt="C-3PO">
+                </div><!-- card image -->
+            </div><!-- card -->
+
+            <div class="card card-01">
+                <div class="door">
+                    <div class="door-left">
+                        <img src="images/door-left.jpg" alt="Door left">
+                    </div><!-- door left -->
+                    <div class="door-right">
+                        <img src="images/door-right.jpg" alt="Door right">
+                    </div><!-- door right -->
+                </div><!-- door -->
+                <div class="shadow"></div><!-- shadow -->
+                <div class="card-image">
+                    <img src="images/c-3po.jpg" alt="C-3PO">
+                </div><!-- card image -->
+            </div><!-- card -->
+
+            <div class="card card-01">
+                <div class="door">
+                    <div class="door-left">
+                        <img src="images/door-left.jpg" alt="Door left">
+                    </div><!-- door left -->
+                    <div class="door-right">
+                        <img src="images/door-right.jpg" alt="Door right">
+                    </div><!-- door right -->
+                </div><!-- door -->
+                <div class="shadow"></div><!-- shadow -->
+                <div class="card-image">
+                    <img src="images/c-3po.jpg" alt="C-3PO">
+                </div><!-- card image -->
+            </div><!-- card -->
+
+            <div class="card card-01">
+                <div class="door">
+                    <div class="door-left">
+                        <img src="images/door-left.jpg" alt="Door left">
+                    </div><!-- door left -->
+                    <div class="door-right">
+                        <img src="images/door-right.jpg" alt="Door right">
+                    </div><!-- door right -->
+                </div><!-- door -->
+                <div class="shadow"></div><!-- shadow -->
+                <div class="card-image">
+                    <img src="images/c-3po.jpg" alt="C-3PO">
+                </div><!-- card image -->
+            </div><!-- card -->
+
+            <div class="card card-01">
+                <div class="door">
+                    <div class="door-left">
+                        <img src="images/door-left.jpg" alt="Door left">
+                    </div><!-- door left -->
+                    <div class="door-right">
+                        <img src="images/door-right.jpg" alt="Door right">
+                    </div><!-- door right -->
+                </div><!-- door -->
+                <div class="shadow"></div><!-- shadow -->
+                <div class="card-image">
+                    <img src="images/c-3po.jpg" alt="C-3PO">
+                </div><!-- card image -->
+            </div><!-- card -->
+
+            <div class="card card-01">
+                <div class="door">
+                    <div class="door-left">
+                        <img src="images/door-left.jpg" alt="Door left">
+                    </div><!-- door left -->
+                    <div class="door-right">
+                        <img src="images/door-right.jpg" alt="Door right">
+                    </div><!-- door right -->
+                </div><!-- door -->
+                <div class="shadow"></div><!-- shadow -->
+                <div class="card-image">
+                    <img src="images/c-3po.jpg" alt="C-3PO">
+                </div><!-- card image -->
+            </div><!-- card -->
+        </div><!-- game board -->
+    </div><!-- game screen -->
+
+</body>
+
+</html>

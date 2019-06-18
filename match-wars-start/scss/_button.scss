@@ -1,0 +1,10 @@
+.btn {
+    border: none;
+    background-color: $button;
+    font-size: 3em;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: 3 px solid $highlight;
+    cursor: pointer;
+}
