@@ -149,12 +149,20 @@ body {
   z-index: 2;
   width: 50%;
   height: 100%;
+  transition: transform 0.3s ease-in;
 }
 .card .door-left {
   left: 0;
 }
+.open .door-left {
+  transition: translateX(-100%);
+}
+
 .card .door-right {
   right: 0;
+}
+.open .door-right {
+  transition: translateX(100%);
 }
 
 .btn {
