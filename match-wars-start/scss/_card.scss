@@ -1,0 +1,35 @@
+.card {
+  border: 2px solid white;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+
+  img {
+    display: block;
+  }
+
+  .shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset -1px -2px 41px 5px #000;
+  }
+
+  .door-left,
+  .door-right {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    width: 50%;
+    height: 100%;
+  }
+
+  .door-left {
+    left: 0;
+  }
+  .door-right {
+    right: 0;
+  }
+}
