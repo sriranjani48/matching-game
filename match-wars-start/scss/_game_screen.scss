@@ -1,8 +1,7 @@
 .game-screen {
-    display: none;
-    height: 100vh;
-    background-image: url('../images/bg-match-wars-game-board.jpg');
-   // background-attachment: fixed;
-    background-size: cover;
-    background-position: top center;
+  height: 100vh;
+  background-image: url("../images/bg-match-wars-game-board.jpg");
+  // background-attachment: fixed;
+  background-size: cover;
+  background-position: top center;
 }

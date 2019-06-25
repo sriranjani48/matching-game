@@ -1,24 +1,23 @@
 .title-screen {
-    height: 100vh;
-    background-image: url(../images/bg-match-wars-opening.jpg);
-    background-size: cover;
-    background-position: top center;
+  height: 100vh;
+  background-image: url(../images/bg-match-wars-opening.jpg);
+  background-size: cover;
+  background-position: top center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .title-box {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+  }
 
-    .title-box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    h1 {
-        text-align: center;
-        line-height: 1;
-        font-size: 9em;
-        margin-bottom: 0.3em;
-    }
-    
-    
+  h1 {
+    text-align: center;
+    line-height: 1;
+    font-size: 9em;
+    margin-bottom: 0.3em;
+  }
+  display: none;
 }
